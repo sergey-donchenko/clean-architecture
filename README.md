@@ -1,2 +1,12 @@
-# clean-architecture
-Params and principles of clean architecture
+# Clean Architecture
+
+Details and principles of clean architecture
+
+## Install dependencies
+
+``npm install``
+
+## Run application in DEV mode
+
+``npm run start:dev``
+

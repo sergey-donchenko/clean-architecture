@@ -1,0 +1,37 @@
+{
+  "name": "clean-architecture",
+  "version": "1.0.0",
+  "description": "Code example",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "ts-node-dev --respawn --transpile-only --inspect -- ./src/config/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergey-donchenko/clean-architecture.git"
+  },
+  "keywords": [
+    "clean",
+    "architectre",
+    "typescript",
+    "node.js",
+    "ddd",
+    "dto",
+    "orm"
+  ],
+  "author": "Serhii Donchenko, sergey.donchenko@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergey-donchenko/clean-architecture/issues"
+  },
+  "homepage": "https://github.com/sergey-donchenko/clean-architecture#readme",
+  "dependencies": {
+    "@prisma/client": "^6.3.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "ts-node-dev": "^2.0.0"
+  }
+}
